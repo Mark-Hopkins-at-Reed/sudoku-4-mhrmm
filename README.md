@@ -162,5 +162,3 @@ our Sudoku formulation from HW: Sudoku 2.
    tests should succeed:
    
        python -m unittest test_sudoku.TestCnfConversion
-   
-# proj-sudoku4
