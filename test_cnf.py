@@ -26,8 +26,8 @@ class TestClause(unittest.TestCase):
            
     def test_clause_getitem(self):
         c1 = cnf.c('!a || b || e')
-        assert not c1['b'] 
-        assert c1['a']
+        assert c1['b'] 
+        assert not c1['a']
         
     def test_clause_bool(self):    
         assert bool(cnf.c('a'))
